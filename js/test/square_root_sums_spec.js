@@ -17,6 +17,6 @@ describe('squareRootSums', function () {
     var test10 = squareRootSums(10);
     expect(test10).to.equal(385);
     var test16 = squareRootSums(16);
-    expect(test16).to.equal(1496);
+    expect(test16).to.equal(1496); 
   })
 });
