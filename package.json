@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "node_modules/.bin/mocha --watch"
+    "test": "browser-sync start --server --files \"js/**/*.js\" --index test.html"
   },
   "author": "",
   "license": "ISC",
