@@ -1,4 +1,4 @@
-var squareRootSums = function () {
+var squareRootSums = function (num) {
 
-  
-}
+  return num;
+};
