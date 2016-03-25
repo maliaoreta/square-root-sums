@@ -5,7 +5,7 @@ var squareRootSums = function (num) {
 
   while (numToSquare <= num) {
 
-    sum += Math.pow(numToSquare, 2);
+    sum += Math.sqrt(numToSquare);
     numToSquare += 1;
   };
 
