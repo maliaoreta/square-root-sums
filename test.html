@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Square Root Sums Test</title>
+  <link rel="stylesheet" href="/css/mocha.css">
+</head>
+<body>
+  
+  <div id="mocha"></div>
+
+  <script src="/js/mocha.js"></script>
+  <script src="/js/chai.js"></script>
+  <script>mocha.setup('bdd');</script>
+  <script src="/js/square_root_sums.js"></script>
+  <script src="/js/test/square_root_sums_spec.js"></script>
+  <script>
+    var expect = chai.expect;
+    chai.should();
+    mocha.run();
+  </script>
+</body>
+</html>
